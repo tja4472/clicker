@@ -1,3 +1,10 @@
+<a name="1.1.0"></a>
+# 1.1.0 (2016-04-??)
+
+### Features
+
+* **Build**: Remove the need for app.stub.js [#79](https://github.com/lathonez/clicker/issues/79) ([???????](https://github.com/lathonez/clicker/commit/???????))
+
 <a name="1.0.0"></a>
 # 1.0.0 (2016-04-20)
 

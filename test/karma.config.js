@@ -21,6 +21,10 @@ module.exports = function(config) {
       {pattern: 'www/build/**/*.html', included: false},
     ],
 
+	// we need <ion-app> in our Karma runner's html
+    customContextFile: 'test/karma.context.html',
+    customDebugFile: 'test/karma.debug.html',
+
     // list of files to exclude
     exclude: [
       'node_modules/angular2/**/*_spec.js',

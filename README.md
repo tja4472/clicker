@@ -21,8 +21,8 @@ npm test          # run unit tests
 
 ## Debug Unit tests
 ```bash
-npm run watch   # in one window - build all the tests and start watching for changes
-npm run karma        # start karma in debug mode: mutli run Chrome, hit `debug` to get going
+npm run watch     # in one window - build all the tests and start watching for changes
+npm run karma     # start karma in debug mode: mutli run Chrome, hit `debug` to get going
 ```
 
 ## Run E2E
@@ -61,7 +61,6 @@ External dependencies are listed here to justify their inclusion and to enable t
 
 * codecov.io: sending unit test coverage reports to codecov.io
 * gulp-load-plugins: helper to load other gulp plugins easily
-* gulp-rename: rename a file in gulp, used to patch Ionic's app decorator
 * gulp-tslint: access tslint from gulp
 * gulp-typescript: transpile typescript in gulp
 * gulp-util: logging in gulp

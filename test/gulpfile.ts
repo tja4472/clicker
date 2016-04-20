@@ -45,13 +45,10 @@ gulp.task('build-e2e', () => {
 });
 
 // transpile unit tests into test.bundle.js, output sourcemaps
-gulp.task('build-unit', ['clean-test', 'html', 'lint', 'patch-app'], (done: Function) => {
+gulp.task('build-unit', ['clean-test', 'html', 'lint'], (done: Function) => {
 
   let browserify: any = require('ionic-gulp-browserify-typescript');
   let specs: any = glob.sync('**/*.spec.ts');
-  let doneFn: Function = (() => {
-    runSequence('restore-app', (<any>done));
-  });
 
   browserify(
     {
@@ -65,7 +62,7 @@ gulp.task('build-unit', ['clean-test', 'html', 'lint', 'patch-app'], (done: Func
         debug: true,
       },
     }
-  ).on('end', doneFn);
+  ).on('end', done);
 });
 
 // delete everything used in our test cycle here
@@ -115,25 +112,6 @@ gulp.task('lint', () => {
     }));
 });
 
-// patch Ionic's app decorator with one that doesn't break tests, see https://github.com/lathonez/clicker/issues/79
-gulp.task('patch-app', () =>  {
-
-  let appSrc: string  = 'node_modules/ionic-angular/decorators/';
-  let stubSrc: string = 'test/app.stub.js';
-
-  gulp.src(join(appSrc, 'app.js'))
-    .pipe(plugins.rename('app.backup'))
-    .pipe(gulp.dest(appSrc));
-
-  plugins.util.log(join(appSrc, 'app.js') + ' has been backed up to ' + join(appSrc, 'app.backup'));
-
-  gulp.src(stubSrc)
-    .pipe(plugins.rename('app.js'))
-    .pipe(gulp.dest(appSrc));
-
-  plugins.util.log(join(appSrc, 'app.js') + ' has been patched with ' + stubSrc);
-});
-
 // remapped coverage (see remap-coverage) contains everything from the test bundle (including node modules)
 // this task removes everything we don't care about from the remapped istanbul JSON
 gulp.task('prune-coverage', () => {
@@ -176,18 +154,6 @@ gulp.task('report-coverage', (done: Function) => {
   collector.add(pruned);
   reporter.addAll([ 'text', 'lcov']);
   reporter.write(collector, false, done);
-});
-
-// restore Ionic's app decorator after patching, see https://github.com/lathonez/clicker/issues/79
-gulp.task('restore-app', () => {
-
-  let appSrc: string  = 'node_modules/ionic-angular/decorators/';
-
-  gulp.src(join(appSrc, 'app.backup'))
-    .pipe(plugins.rename('app.js'))
-    .pipe(gulp.dest(appSrc));
-
-  plugins.util.log(join(appSrc, 'app.backup') + ' has been restored to ' + join(appSrc, 'app.js'));
 });
 
 // build unit tests, run unit tests, remap and report coverage
