@@ -1,3 +1,313 @@
+<a name="2.24.0"></a>
+# 2.24.0 (2018-01-16)
+### Features
+
+* **Update**: Update to Ionic 3.9.2 and @angular/cli 1.6.4 (implying @angular 5.0.3) ([debed2b](https://github.com/lathonez/clicker/commit/debed2b))
+
+<a name="2.23.0"></a>
+# 2.23.0 (2017-11-27)
+### Features
+
+* **App**: Add ngTranslate / i18n ([0d493cf](https://github.com/lathonez/clicker/commit/0d493cf))
+
+<a name="2.22.0"></a>
+# 2.22.0 (2017-11-26)
+### Features
+
+* **Deploy**: Add continuous deployment to github pages ([f442248](https://github.com/lathonez/clicker/commit/f442248))
+
+<a name="2.21.0"></a>
+# 2.21.0 (2017-11-25)
+### Features
+
+* **Update**: Update to Ionic 3.9.2 and @angular/cli 1.5.4 (implying @angular 5.0.1) ([c44ac55](https://github.com/lathonez/clicker/commit/c44ac55))
+
+<a name="2.20.1"></a>
+# 2.20.1 (2017-10-13)
+
+### Bug Fixes
+
+* **Build**: Remove unnecessary excludes [#273](https://github.com/lathonez/clicker/issues/273) ([95b7a1a](https://github.com/lathonez/clicker/commit/95b7a1a))
+
+<a name="2.20.0"></a>
+# 2.20.0 (2017-08-25)
+
+### Features
+
+* **Update**: Update to Ionic 3.6.0 and @angular/cli 1.3.2 (implying @angular 4.1.3) ([bc89715](https://github.com/lathonez/clicker/commit/bc89715))
+
+<a name="2.19.0"></a>
+# 2.19.0 (2017-07-31)
+
+### Features
+
+* **CI**: Upgrade to Circle 2.0 PR [#263](https://github.com/lathonez/clicker/pull/263) ([f9cfff4](https://github.com/lathonez/clicker/commit/f9cfff4))
+
+<a name="2.18.0"></a>
+# 2.18.0 (2017-07-25)
+
+### Bug Fixes
+
+* **Lint**: Use quotes to expand path correctly on ubuntu [#257](https://github.com/lathonez/clicker/issues/257) ([2e0c3a4](https://github.com/lathonez/clicker/commit/2e0c3a4))
+
+<a name="2.17.0"></a>
+# 2.17.0 (2017-07-13)
+
+### Features
+
+* **Unit**: Use ionic-mocks PR [#252](https://github.com/lathonez/clicker/pull/254) ([654df58](https://github.com/lathonez/clicker/commit/654df58))
+
+<a name="2.16.0"></a>
+# 2.16.0 (2017-06-28)
+
+### Features
+
+* **Update**: Update to Ionic 3.4.2 and @angular/cli 1.1.2 (implying @angular 4.1.3) ([9de0410](https://github.com/lathonez/clicker/commit/9de0410))
+* **E2E**: Add connect and serve-static dependencies for those just running E2E
+
+<a name="2.15.0"></a>
+# 2.15.0 (2017-06-11)
+
+### Features
+
+* **Unit**: Add alert example and coverage PR [#252](https://github.com/lathonez/clicker/pull/252) ([310a2e9](https://github.com/lathonez/clicker/commit/310a2e9))
+
+<a name="2.14.0"></a>
+# 2.14.0 (2017-05-31)
+
+### Features
+
+* **Update**: Update to Ionic 3.3.0 and @angular/cli 1.0.6 (implying @angular 4.1.2) ([f9928ab](https://github.com/lathonez/clicker/commit/f9928ab))
+
+<a name="2.13.2"></a>
+# 2.13.2 (2017-05-11)
+
+### Bug Fixes
+
+* **Build**: Use explicit version of ionic cli [#246](https://github.com/lathonez/clicker/pull/246) ([b334fe5](https://github.com/lathonez/clicker/commit/b334fe5))
+
+<a name="2.13.1"></a>
+# 2.13.1 (2017-04-30)
+
+### Bug Fixes
+
+* **Unit**: Remove unused storage mock import [#244](https://github.com/lathonez/clicker/pull/244) ([daa3172](https://github.com/lathonez/clicker/commit/daa3172))
+* **Services**: Add typedef for load: ([105295a](https://github.com/lathonez/clicker/commit/105295a))
+
+<a name="2.13."></a>
+# 2.13.0 (2017-04-25)
+
+### Features
+
+* **Unit**: Improve test coverage [#243](https://github.com/lathonez/clicker/pull/243) ([3e2551f](https://github.com/lathonez/clicker/commit/3e2551f))
+
+<a name="2.12.1"></a>
+# 2.12.1 (2017-04-20)
+
+### Bug Fixes
+
+* **Unit**: Remove unused mocks code [#241](https://github.com/lathonez/clicker/issues/241) ([e97c14e](https://github.com/lathonez/clicker/commit/e97c14e))
+
+<a name="2.12.0"></a>
+# 2.12.0 (2017-04-11)
+
+### Features
+
+* **Update**: Update to Ionic 3.0.1 and @angular/cli 1.0.0 (implying @angular 4.0.0) ([0ed7a16](https://github.com/lathonez/clicker/commit/0ed7a16))
+* **Unit**: Exclude mocks and config from coverage [#221](https://github.com/lathonez/clicker/issues/221) ([096e063](https://github.com/lathonez/clicker/commit/096e063))
+
+<a name="2.11.0"></a>
+# 2.11.0 (2017-04-11)
+
+### Revert Deprecation
+
+The reverted code now lives on the [ionic-unit-testing-example branch](https://github.com/lathonez/clicker/commits/ionic-unit-testing-example)
+
+* **Update**: REVERT: Look at deprecating this repo [#239](https://github.com/lathonez/clicker/issues/239): ([bf946c7..7dbd3b8](https://github.com/lathonez/clicker/compare/bf946c7b819a3900f12947da7c92896329caa7ff...7dbd3b83a1301c9aaaa9b790b7c33655cb73e0ca))
+
+<a name="2.10.0"></a>
+# 2.10.0 (2017-03-28)
+
+### Deprecate!
+
+(This version never really existed - I should have branced off but I didn't)
+
+* **Update**: Look at deprecating this repo [#239](https://github.com/lathonez/clicker/issues/239): ([689c02f..d56c7d6](https://github.com/lathonez/clicker/compare/689c02f381724822a25816677ae4c41fd554b46d...d56c7d6eca37f5064e63e2748b06e72138b0c99d))
+
+<a name="2.9.1"></a>
+# 2.9.1 (2017-03-14)
+
+### Bug Fixes
+
+* **Build**: Reinstate tsconfig.json excludes for `ionic build --prod` [#236](https://github.com/lathonez/clicker/issues/236) ([f75ec74](https://github.com/lathonez/clicker/commit/f75ec74))
+
+<a name="2.9.0"></a>
+# 2.9.0 (2017-02-27)
+
+### Features
+
+* **Update**: Update to Ionic 2.1.0 and @angular/cli rc.0 (implying @angular 2.4.0) ([13a6cd6](https://github.com/lathonez/clicker/commit/13a6cd6))
+
+<a name="2.8.0"></a>
+# 2.8.0 (2016-02-24)
+
+### Features
+
+* **Unit**: Add functions to PlatforMock to facilitate testing of Slides [#227](https://github.com/lathonez/clicker/issues/227) ([d7ee4d4](https://github.com/lathonez/clicker/commit/d7ee4d4))
+
+<a name="2.7.0"></a>
+# 2.7.0 (2017-01-26)
+
+### Features
+
+* **Update**: Update to Ionic 2.0.0 FINAL ([bac5ce3](https://github.com/lathonez/clicker/commit/bac5ce3))
+
+<a name="2.6.1"></a>
+# 2.6.1 (2017-01-25)
+
+### Bug Fixes
+
+* **Build**: Remove [#135](https://github.com/lathonez/clicker/pull/135), it's been obsolute since ionic went back to webpack (and we moved to ng-cli) will be implemented by Ionic in https://github.com/driftyco/ionic-cli/issues/1205 [#217](https://github.com/lathonez/clicker/issues/217) ([5a3e177](https://github.com/lathonez/clicker/commit/5a3e177))
+
+<a name="2.6.0"></a>
+# 2.6.0 (2017-01-18)
+
+### Features
+
+* **Update**: Update to Ionic RC5 ([7328aad](https://github.com/lathonez/clicker/commit/7328aad))
+
+The above update includes creating a mock for Ionic's platform class and using it as a provider in test.ts. I have not attempted to mock out the whole class, what is there is sufficient for clicker. If anything is missing for your app, you can add easily by referencing the signature in node_modules/ionic-angular/platform/platform.d.ts.
+
+* **E2E**: Use serve-static to run protractor with a single commmand. closes [#210](https://github.com/lathonez/clicker/issues/210) ([8331382](https://github.com/lathonez/clicker/commit/8331382))
+
+<a name="2.5.3"></a>
+# 2.5.3 (2016-01-03)
+
+### Bug Fixes
+
+* **Unit**: Add separate script for coverage as it breaks sourcemaps [#203](https://github.com/lathonez/clicker/issues/203) ([1f9993b](https://github.com/lathonez/clicker/commit/1f9993b))
+
+<a name="2.5.2"></a>
+# 2.5.2 (2016-01-02)
+
+### Bug Fixes
+
+* **Unit**: Remove redundant "initialises with app" test [#202](https://github.com/lathonez/clicker/issues/202) ([d12d8ca](https://github.com/lathonez/clicker/commit/d12d8ca))
+
+<a name="2.5.1"></a>
+# 2.5.1 (2016-12-26)
+
+### Bug Fixes
+
+* **Unit**: Fixing codecov integration [#200](https://github.com/lathonez/clicker/issues/200) ([ecf5d87](https://github.com/lathonez/clicker/commit/ecf5d87))
+* **Unit**: Reverting to typescript 2.0.10 to fix Jasmie typings misisng when ionic:build'ing [#159](https://github.com/lathonez/clicker/issues/159) ([973292a](https://github.com/lathonez/clicker/commit/973292a))
+
+<a name="2.5.0"></a>
+# 2.5.0 (2016-12-22)
+
+### Features
+
+* **Update**: Update to Ionic RC4 ([b27aade](https://github.com/lathonez/clicker/commit/b27aade))
+
+The above update includes a change to angular-cli which means you need to add the current working directory to template urls:
+
+For example:
+
+```javascript
+  templateUrl: 'hello-ionic.html',
+```
+
+becomes
+
+```javascript
+  templateUrl: './hello-ionic.html',
+```
+
+Also Ionic's DomController needs adding into test.ts as a provider
+
+<a name="2.4.0"></a>
+
+# 2.4.0 (2016-12-08)
+
+### Features
+
+* **Unit**: Add example of TestBed component compiling manually in the component (Page2) as opposed to calling TestUtils closes [#179](https://github.com/lathonez/clicker/issues/179) ([51b5e23](https://github.com/lathonez/clicker/commit/51b5e23))
+
+### Bug Fixes
+
+* **Unit**: Add mime type to karma.conf.js, closes [#178](https://github.com/lathonez/clicker/issues/178) ([5c0ffeb](https://github.com/lathonez/clicker/commit/5c0ffeb))
+
+# 2.3.0 (2016-11-18)
+
+### Bug Fixes
+
+* **Unit/E2E**: Reverting to using jasmine types in main tsconfig.json as excluding spec means editors don't resolve modules, closes [#174](https://github.com/lathonez/clicker/issues/174) ([0ae024b](https://github.com/lathonez/clicker/commit/0ae024b))
+
+### Features
+
+* **Update**: Update to Ionic RC3 ([d1a7df2](https://github.com/lathonez/clicker/commit/d1a7df2))
+* **Update**: Update Angular-CLI PR [#176](https://github.com/lathonez/clicker/pull/176)([b7486d2](https://github.com/lathonez/clicker/commit/b7486d2))
+
+<a name="2.2.1"></a>
+# 2.2.1 (2016-11-17)
+
+### Bug Fixes
+
+* **Unit**: Don't mock Ionic when configuring the testing module [#175](https://github.com/lathonez/clicker/issues/175) ([2f49f96](https://github.com/lathonez/clicker/commit/2f49f96))
+
+<a name="2.2.0"></a>
+# 2.2.0 (2016-11-07)
+
+### Features
+
+* **Update**: Update to Ionic RC2 ([694be18](https://github.com/lathonez/clicker/commit/694be18))
+
+<a name="2.1.2"></a>
+# 2.1.2 (2016-11-03)
+
+### Bug Fixes
+
+* **Build**: Using environment variables for travis build directory [#162](https://github.com/lathonez/clicker/issues/162) ([9f81dc4](https://github.com/lathonez/clicker/commit/9f81dc4))
+
+<a name="2.1.1"></a>
+# 2.1.1 (2016-10-31)
+
+### Bug Fixes
+
+* **Unit**: Windows 10 needs explicit excludes [#159](https://github.com/lathonez/clicker/issues/159) ([0e55cc1](https://github.com/lathonez/clicker/commit/0e55cc1))
+
+<a name="2.1.0"></a>
+# 2.1.0 (2016-10-30)
+
+### Features
+
+* **E2E**: Re-implement e2e post rc1 ([a5ea70c](https://github.com/lathonez/clicker/commit/a5ea70c))
+* **Update**: Update deps ([b0a95a6](https://github.com/lathonez/clicker/commit/b0a95a6))
+* **Unit**: Rationalise beforeEach boilerplate into TestUtils.beforeEachCompiler ([a5fef51](https://github.com/lathonez/clicker/commit/a5fef51))
+* **Build**: Using workaround for missing SDK license ([b6751ac](https://github.com/lathonez/clicker/commit/a5fef51))
+
+### Bug Fixes
+
+* **Unit**: Barrels aren't working with modules since latest upgrade: ([0c0993b](https://github.com/lathonez/clicker/commit/0c0993b))
+* **Unit**: Add compileComponents to beforeEach, use ng-cli's tsconfig.json for testing for [#155](https://github.com/lathonez/clicker/issues/155) ([d59d968](https://github.com/lathonez/clicker/commit/d59d968))
+
+<a name="2.0.0"></a>
+# 2.0.0 (2016-10-16)
+
+### Features
+
+**Re-write project for to Ionic 2.0.0.rc0**:
+
+* restructure app for new directory structure: ([3e92e3c](https://github.com/lathonez/clicker/commit/3e92e3c)) ([bcb1c80](https://github.com/lathonez/clicker/commit/bcb1c80)) ([a992f38](https://github.com/lathonez/clicker/commit/a992f38))
+* merge config ([055bf22](https://github.com/lathonez/clicker/commit/055bf22))
+* build errors ([58d4732](https://github.com/lathonez/clicker/commit/58d4732))
+* remove ngrx ([07d5e6c](https://github.com/lathonez/clicker/commit/07d5e6c))
+* POC for ng-cli setup ([7b1a80c](https://github.com/lathonez/clicker/commit/7b1a80c))
+* centralise boilerplate ([c7e9b57](https://github.com/lathonez/clicker/commit/c7e9b57))
+* update *.spec ([819caf5](https://github.com/lathonez/clicker/commit/819caf5))
+* all unit tests working ([02b0901](https://github.com/lathonez/clicker/commit/02b0901))
+* tidy up and update to rc1 ([f66d45a](https://github.com/lathonez/clicker/commit/f66d45a))
+
 <a name="1.14.0"></a>
 # 1.14.0 (2016-09-08)
 
